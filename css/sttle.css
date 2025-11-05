@@ -1,20 +1,13 @@
 .postit1 {
-background-color: gray;
-color: black;
-  height: 20vh;
-    width: 15vw;
-    margin: 0 auto;
-    text-decoration: nones;
-
-}
-
-.postit2 {
-background-color: gray;
+    background-color: gray;
+    color: black;
     height: 20vh;
     width: 15vw;
     margin: 0 auto;
-    margin-top: 15px;
-
+    border-radius: 10px;
 }
 
-
+#comment{
+   width: 100%;
+}
+   
