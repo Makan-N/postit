@@ -9,15 +9,15 @@ let error = document.getElementById("error")
 
 ajoute.addEventListener("click", function () {
 
-let urgent = "";
+    let urgent = "";
     if (commentaire.value == "") {
         error.innerText = "Ajoute un commentaire";
     } else {
         error.innerText = "";
-           if (urgent = "Urgent") {
+        if (selection.value == "Urgent") {
             urgent = `<i class=" m-2 text-danger fa-solid fa-triangle-exclamation"></i>`
         }
-        parent.innerHTML +=`
+        parent.innerHTML += `
         
         <div class="postit1 p-2 m-3 mx-auto">
             <div class="text-end">
@@ -29,9 +29,9 @@ let urgent = "";
             </div>
         </div>
 `
-}
+    }
 
-  commentaire.value = "";
+    commentaire.value = "";
 
 
 
